@@ -1,3 +1,5 @@
+/* REGOLE GENERALI*/
+
 *{
     box-sizing: border-box;
     margin:0;
@@ -6,7 +8,9 @@
 body{
     background-color: #1E2D3B;
 }
+/* /REGOLE GENERALI*/
 
+/* HEADER */
 header img{
     width: 50px;
     padding:10px;
@@ -16,12 +20,17 @@ header{
     height:59px;
     background-color: #2E3A46;
 }
+/*  /HEADER */
+/* CONTENITORE CARD */
 .artists{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     
 }
+/* /CONTENITORE CARD */
+
+/* SEZIONE CARD */
 .card{
     margin:1rem;
     padding:1rem;
@@ -45,3 +54,4 @@ header{
 .author, .year{
     color: grey;
 }
+/* /SEZIONE CARD */

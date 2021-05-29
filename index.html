@@ -9,16 +9,22 @@
 </head>
 <body>
     <div id="app">
+        <!-- HEADER -->
         <header>
             <img src="./assets/img/logo-small.svg" alt="">
         </header>
+        <!-- /HEADER -->
+
         <div class="artists" >
+            <!-- SEZIONE CARD -->
             <div class="card" v-for="disco in dischi ">
                 <img class="poster_logo" :src="disco.poster" alt="">
                 <h3 class="title"><strong>{{disco.title}}</strong></h3>
                 <span class="author">{{disco.author}}</span><br>
                 <span class="year">{{disco.year}}</span>
             </div>
+            <!-- /SEZIONE CARD -->
+
         </div>
 
     </div>
