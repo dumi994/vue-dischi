@@ -8,6 +8,9 @@
 body{
     background-color: #1E2D3B;
 }
+.card > h3{
+    text-transform: uppercase;
+}
 /* /REGOLE GENERALI*/
 
 /* HEADER */
@@ -34,8 +37,8 @@ header{
 .card{
     margin:1rem;
     padding:1rem;
-    width: 150px;
-    height: 250px;
+    width: 180px;
+    height: 270px;
     text-align: center;
     align-self: center;
     background-color: #2E3A46;
